@@ -12,5 +12,5 @@ steps:
   inputs:
     azureSubscription: 'Dev ops - Project Training '
     appType: 'webAppLinux'
-    appName: 'training-cicd-webapp'
+    appName: 'train-webapp'
     package: '$(System.DefaultWorkingDirectory)/**/*.zip'
